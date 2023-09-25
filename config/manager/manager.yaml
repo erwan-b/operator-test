@@ -29,7 +29,7 @@ spec:
         - /manager
         args:
         - --leader-elect
-        image: gcr.io/kubebuilder/controller
+        image: ghcr.io/erwan-b/operator-test
         name: manager
         securityContext:
           allowPrivilegeEscalation: false
